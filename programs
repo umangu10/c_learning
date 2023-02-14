@@ -1,0 +1,176 @@
+Q- add two variable. 
+
+#include <stdio.h>
+
+int main()
+{
+    int a, b ,sum;
+    printf("enter no\n");
+    scanf("%d%d",&a,&b);
+        sum=a+b;
+        printf("%d",sum);
+    return 0;
+}
+
+-------------------------------------------------------
+Q- Input variables.
+
+#include <stdio.h>
+
+int main()
+{
+    int a;
+    double b;
+    float c;
+    char d;
+    scanf("%c",&d);
+    scanf("%d",&a);
+    scanf("%lf",&b);
+    scanf("%f",&c);
+    printf("%c\n",d);
+    printf("%d\n",a);
+    printf("%lf\n",b);
+    printf("%f\n",c);
+    return 0;
+}
+
+-------------------------------------------------------
+Q- airthametic operation
+
+
+#include <stdio.h>
+
+int main()
+{
+    int a, b ,sum;
+    printf("enter no\n");
+    scanf(
+        "%d%d",&a,&b);
+        printf("%d\n",sum=a+b);
+        printf("%d\n",sum=a-b);
+        printf("%d\n",sum=a/b);
+        printf("%d\n",sum=a%b);
+        printf("%d\n",sum=a*b);
+    return 0;
+
+}
+
+-------------------------------------------------------
+
+Q-Perimeter of rectangle
+
+#include <stdio.h>
+
+int main()
+{
+    int a, b ,sum;
+    printf("enter length and breadth\n");
+    scanf(
+        "%d%d",&a,&b);
+        printf("perimeter is=%d",sum=2*(a+b));
+    return 0;
+}
+
+-------------------------------------------------------
+Q- Area of rectangle
+
+#include <stdio.h>
+
+int main()
+{
+    int a, b ,sum;
+    printf("enter length and breadth\n");
+    scanf(
+        "%d%d",&a,&b);
+        printf("area is=%d",sum=a*b);
+    return 0;
+}
+
+-------------------------------------------------------
+Q-Radius, Circumference, Area  of circle
+
+
+#include <stdio.h>
+
+int main()
+{
+    int a,b;
+    printf("enter radius\n");
+    scanf(
+        "%d",&a);
+        printf("diameter is=%d\n",b=2*a);
+        printf("area=%d\n",b=3.14*a*a);
+        printf("circumference=%d\n",b=2*3.14*a);
+    return 0;
+}
+
+-------------------------------------------------------
+
+Q- Km to M converter
+
+#include <stdio.h>
+
+int main()
+{
+    int a;
+    float b;
+    printf("enter length in cm\n");
+    scanf(
+        "%d",&a);
+        printf("km=%f\n",b=a*0.00001);
+        printf("m= %f\n",b=a/100);
+    return 0;
+}
+
+-------------------------------------------------------
+Q- Fernit to celcius
+
+#include <stdio.h>
+
+int main()
+{
+    int a,b;
+
+    printf("enter Fernit\n");
+    scanf(
+        "%d",&a);
+        printf("clecius to f=%d\n",b=(a*1.8) + 32);
+
+    return 0;
+}
+
+-------------------------------------------------------
+Q- Celcius to Fernit
+
+#include <stdio.h>
+
+int main()
+{
+    int a,b;
+
+    printf("enter celcius\n");
+    scanf(
+        "%d",&a);
+        printf("fernit to c=%d\n",b=((a- 32)*5)/9);
+
+    return 0;
+}
+
+-------------------------------------------------------
+
+Q-Power and Sqrt calculation
+
+#include <stdio.h>
+#include <math.h>
+
+int main ()
+{
+  double a, b;
+
+  printf ("enter x to y \n");
+  scanf ("%lf%lf", &a,&b);
+  printf ("power%lf\n", pow (a, b));
+  return 0;
+}
+
+-------------------------------------------------------
