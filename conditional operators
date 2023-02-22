@@ -1,0 +1,45 @@
+Q= greater among 2/3 numbers
+
+#include <stdio.h>
+
+int main()
+{
+    int a,b;
+    scanf("%d%d",&a,&b);
+    a>b?printf("%d",a):printf("%d",b);
+    // for 3 Numbers
+    // a>b && a>c?printf("%d",a): b>a && b>c ?printf("%d",b):printf("%d",c);
+
+    return 0;
+}
+------------------------------------------------------------
+
+Q- Checking even or odd.
+
+#include <stdio.h>
+
+int main()
+{
+    int a;
+    scanf("%d",&a);
+    a%2==0?printf("Even"):printf("Odd");
+
+    return 0;
+}
+------------------------------------------------------------
+
+Q- Check weather a year is leap year or not
+
+#include <stdio.h>
+
+int main()
+{
+    int a;
+    scanf("%d",&a);
+    a%4==0 && a%400==0?printf("leap"):printf("Not leap");
+
+    return 0;
+}
+------------------------------------------------------------
+
+Q-
