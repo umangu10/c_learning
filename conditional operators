@@ -36,7 +36,7 @@ int main()
 {
     int a;
     scanf("%d",&a);
-    a%4==0 && a%400==0?printf("not leap"):printf(" leap");
+    a%4==0 && a%400==0?printf("leap"):printf(" not leap");
 
     return 0;
 }
